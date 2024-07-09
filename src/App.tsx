@@ -1,14 +1,13 @@
-import './App.css'
+import { Button, Text } from "./ui";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-    <h1 className="text-3xl font-bold text-mainViolet">
-      Hello world!
-    </h1>
+      <Text>Test</Text>
+      <Button onClick={() => console.log("wow")} label="Click me" className="border border-cyan-200 bg-cyan-500 p-2 rounded text-sm text-slate-200"/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
